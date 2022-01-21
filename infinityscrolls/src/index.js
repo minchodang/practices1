@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import GlobalStyles from './Components/GlobalStyles';
-import Navebar from'./pages/Navebar'
+import Router from './Router';
+import GlobalStyles from '../src/Components/GlobalStyles';
 
 ReactDOM.render(
-<>
-<Navebar/>
-<GlobalStyles/>
-</>
-,document.getElementById('root')
-);
+  <>
+    <GlobalStyles />
+    <Router />
+  </>,
 
+  document.getElementById('root')
+);
